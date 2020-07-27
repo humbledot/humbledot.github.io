@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta>
+<title>Humble Dot</title>
+<link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8WAc5tU1ECVZl_.woff2">
+<link rel="preload" href="https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc9iB85tU1ECVZl_.woff2">
+<link rel="shortcut icon" type="image/x-icon" href="https://humbledot.com/assets/favicon.ico">
+<meta name="description" content="Humble Dot is a tool that builds efficient and high-quality communication without endless meetings" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content="Humble Dot" property="og:site_name">
+<meta content="Humble Dot" property="og:title">
+<meta content="website" property="og:type">
+<meta content="https://humbledot.com/" property="og:url">
+<meta content="https://humbledot.com/assets/og.png" property="og:image">
+<meta content="1200" property="og:image:width">
+<meta content="630" property="og:image:height">
+<meta content="Humble Dot is a tool that builds efficient and high-quality communication without endless meetings." property="og:description">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@Humble_Dot">
+<meta name="twitter:title" content="Humble Dot">
+<meta name="twitter:image" content="https://humbledot.com/assets/tc.png">
+<meta name="twitter:description" content="Humble Dot is a tool that builds efficient and high-quality communication without endless meetings.">
+<style>
+  /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+  /* Document
+     ========================================================================== */
+
+  /**
+   * 1. Correct the line height in all browsers.
+   * 2. Prevent adjustments of font size after orientation changes in iOS.
+   */
+
+  html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+
+  /* Sections
+     ========================================================================== */
+
+  /**
+   * Remove the margin in all browsers.
+   */
+
+  body {
+    margin: 0;
+  }
+
+  /**
+   * Render the `main` element consistently in IE.
+   */
+
+  main {
+    display: block;
+  }
+
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+
+  /* Grouping content
+     ========================================================================== */
+
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+
+  /* Text-level semantics
+     ========================================================================== */
+
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+
+  a {
+    background-color: transparent;
+  }
+
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+
+  b,
+  strong {
+    font-weight: bolder;
+  }
+
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+
+  /**
+   * Add the correct font size in all browsers.
+   */
+
+  small {
+    font-size: 80%;
+  }
+
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+
+  sub {
+    bottom: -0.25em;
+  }
+
+  sup {
+    top: -0.5em;
+  }
+
+  /* Embedded content
+     ========================================================================== */
+
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+
+  img {
+    border-style: none;
+  }
+
+  /* Forms
+     ========================================================================== */
+
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+
+  /**
+   * Correct the padding in Firefox.
+   */
+
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+
+  progress {
+    vertical-align: baseline;
+  }
+
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+
+  textarea {
+    overflow: auto;
+  }
+
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+
+  /* Interactive
+     ========================================================================== */
+
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+  details {
+    display: block;
+  }
+
+  /*
+   * Add the correct display in all browsers.
+   */
+
+  summary {
+    display: list-item;
+  }
+
+  /* Misc
+     ========================================================================== */
+
+  /**
+   * Add the correct display in IE 10+.
+   */
+
+  template {
+    display: none;
+  }
+
+  /**
+   * Add the correct display in IE 10.
+   */
+
+  [hidden] {
+    display: none;
+  }
+</style>
+<style>
+  /* latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Nunito Sans Light'), local('NunitoSans-Light'), url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc8WAc5tU1ECVZl_.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'), url(https://fonts.gstatic.com/s/nunitosans/v5/pe03MImSLYBIv1o4X1M8cc9iB85tU1ECVZl_.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+</style>
+<style>
+  html {
+    font-size: 18px;
+  }
+
+  body {
+    color: #51576A;
+    font-family: Nunito Sans, sans-serif;
+    font-weight: 300;
+    line-height: 1.45em;
+  }
+
+  h1 {
+    color: rgb(3, 46, 97);
+    font-size: 2.369rem;
+    font-weight: 600;
+    line-height: 1.45em;
+  }
+
+  .container {
+    margin: 36px auto;
+    max-width: 480px;
+    padding: 0 18px;
+  }
+
+  .logo {
+    display: block;
+  }
+
+  .hero {
+    margin: 60px 0;
+  }
+</style>
+</head>
+
+<body>
+<div class="container">
+  <header>
+    <svg class="logo" aria-label="Humble Dot" role="img" width="211px" height="38px" viewBox="0 0 161 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: block;"><defs><path d="M15,23 C10.0294373,23 6,18.9705627 6,14 C6,9.02943725 10.0294373,5 15,5 C19.9705627,5 24,9.02943725 24,14 C24,18.9705627 19.9705627,23 15,23 Z M19.1619816,7.51941473 C19.1203629,7.49266456 19.0332727,7.43200919 18.9798992,7.47651007 C18.9265257,7.52101094 18.9654956,7.61602115 18.9798992,7.67122842 C19.6315791,10.1690397 19.935672,12.7914966 18.8956199,15.3663521 C17.8399887,17.979777 15.5599636,20.1472566 13.3085546,21.5265353 C13.2764964,21.5461751 13.2401571,21.5768533 13.2483221,21.6107383 C13.2564872,21.6446233 13.3125287,21.6782021 13.3468476,21.6854514 C16.9688004,22.4505296 20.7277178,20.5343032 22.1627484,16.9815997 C23.5864287,13.4569964 22.2461801,9.50176356 19.1619816,7.51941473 Z" id="Logo__path"></path></defs><path d="M51.1284999,6 L53.4170221,6 L53.4170221,21.8426966 L51.1284999,21.8426966 L51.1284999,14.741573 L42.2885222,14.741573 L42.2885222,21.8426966 L40,21.8426966 L40,6 L42.2885222,6 L42.2885222,12.8539326 L51.1284999,12.8539326 L51.1284999,6 Z M66.4301873,10.8764045 L66.4301873,21.8426966 L64.2314111,21.8426966 L64.2314111,20.0674157 C63.8873832,20.6966324 63.4124822,21.1760283 62.8066939,21.505618 C62.2009056,21.8352076 61.5240782,22 60.7761914,22 C58.1137144,22 56.7824958,20.5318499 56.7824958,17.5955056 L56.7824958,10.8764045 L59.0485815,10.8764045 L59.0485815,17.5730337 C59.0485815,18.4569333 59.2280716,19.1086121 59.5870573,19.5280899 C59.946043,19.9475676 60.4994709,20.1573034 61.2473577,20.1573034 C62.1298641,20.1573034 62.8366065,19.872662 63.3676062,19.3033708 C63.8986058,18.7340796 64.1641016,17.9775328 64.1641016,17.0337079 L64.1641016,10.8764045 L66.4301873,10.8764045 Z M82.158168,10.6067416 C84.6112367,10.6067416 85.8377526,12.0823822 85.8377526,15.0337079 L85.8377526,21.8426966 L83.571667,21.8426966 L83.571667,15.1235955 C83.571667,14.1947519 83.4108737,13.5168561 83.0892824,13.0898876 C82.7676911,12.6629192 82.2479176,12.4494382 81.5299462,12.4494382 C80.7072707,12.4494382 80.056619,12.7340796 79.5779714,13.3033708 C79.0993239,13.872662 78.8600037,14.6516804 78.8600037,15.6404494 L78.8600037,21.8426966 L76.593918,21.8426966 L76.593918,15.1235955 C76.593918,14.1947519 76.4293854,13.5168561 76.1003152,13.0898876 C75.771245,12.6629192 75.2552109,12.4494382 74.5521973,12.4494382 C73.7145641,12.4494382 73.0564336,12.7340796 72.577786,13.3033708 C72.0991385,13.872662 71.8598183,14.6516804 71.8598183,15.6404494 L71.8598183,21.8426966 L69.5937326,21.8426966 L69.5937326,10.8764045 L71.8149453,10.8764045 L71.8149453,12.5393258 C72.1589732,11.9250906 72.6226561,11.4494399 73.2060078,11.1123596 C73.7893595,10.7752792 74.4549688,10.6067416 75.2028556,10.6067416 C76.8930797,10.6067416 77.9924568,11.3108544 78.5010198,12.7191011 C78.8450478,12.0599218 79.3386456,11.543073 79.9818283,11.1685393 C80.6250109,10.7940056 81.3504503,10.6067416 82.158168,10.6067416 Z M94.8123493,10.6067416 C95.7696444,10.6067416 96.6147438,10.838949 97.3476729,11.3033708 C98.080602,11.7677926 98.6527268,12.426962 99.0640645,13.2808989 C99.4754023,14.1348357 99.6810681,15.1310804 99.6810681,16.2696629 C99.6810681,17.393264 99.4754023,18.3895088 99.0640645,19.258427 C98.6527268,20.1273452 98.0768626,20.8014957 97.3364547,21.2808989 C96.5960467,21.760302 95.7546867,22 94.8123493,22 C93.9896739,22 93.2642346,21.8239718 92.6360096,21.4719101 C92.0077847,21.1198484 91.5291444,20.6142355 91.2000742,19.9550562 L91.2000742,21.8426966 L88.9339885,21.8426966 L88.9339885,6 L91.2000742,6 L91.2000742,12.6741573 C91.5291444,12.014978 92.0077847,11.5056198 92.6360096,11.1460674 C93.2642346,10.7865151 93.9896739,10.6067416 94.8123493,10.6067416 Z M94.2738735,20.2022472 C95.2461264,20.2022472 96.0052201,19.8576813 96.5511775,19.1685393 C97.0971348,18.4793973 97.3701094,17.5131148 97.3701094,16.2696629 C97.3701094,15.0411924 97.1008742,14.0936363 96.5623957,13.4269663 C96.0239172,12.7602963 95.2610841,12.4269663 94.2738735,12.4269663 C93.286663,12.4269663 92.5275693,12.7640416 91.9965696,13.4382022 C91.46557,14.1123629 91.2000742,15.0711548 91.2000742,16.3146067 C91.2000742,17.5580587 91.46557,18.5168506 91.9965696,19.1910112 C92.5275693,19.8651719 93.286663,20.2022472 94.2738735,20.2022472 Z M102.193955,21.8426966 L102.193955,6 L104.460041,6 L104.460041,21.8426966 L102.193955,21.8426966 Z M117.00204,16.741573 L109.26145,16.741573 C109.425985,19.063682 110.577714,20.2247191 112.71667,20.2247191 C113.97312,20.2247191 115.10989,19.8127382 116.127017,18.988764 L116.822548,20.5842697 C116.313985,21.0187288 115.685769,21.3632946 114.937882,21.6179775 C114.189996,21.8726604 113.427163,22 112.64936,22 C110.899305,22 109.519475,21.4981324 108.509828,20.494382 C107.50018,19.4906317 106.995364,18.1048778 106.995364,16.3370787 C106.995364,15.2134775 107.215988,14.2172328 107.657241,13.3483146 C108.098494,12.4793964 108.719231,11.8052458 109.51947,11.3258427 C110.319709,10.8464396 111.228377,10.6067416 112.245503,10.6067416 C113.726319,10.6067416 114.889266,11.0861375 115.734378,12.0449438 C116.57949,13.0037501 117.00204,14.3295796 117.00204,16.0224719 L117.00204,16.741573 Z M112.290376,12.2696629 C111.422828,12.2696629 110.731043,12.5430684 110.215001,13.0898876 C109.698959,13.6367069 109.388591,14.4194706 109.283887,15.4382022 L115.050065,15.4382022 C115.005192,14.4194706 114.747175,13.6367069 114.276006,13.0898876 C113.804837,12.5430684 113.142967,12.2696629 112.290376,12.2696629 Z M125.684962,6 L131.226775,6 C133.784548,6 135.766419,6.68913169 137.172446,8.06741573 C138.578473,9.44569978 139.281476,11.3932458 139.281476,13.9101124 C139.281476,16.4269789 138.578473,18.3782702 137.172446,19.7640449 C135.766419,21.1498197 133.784548,21.8426966 131.226775,21.8426966 L125.684962,21.8426966 L125.684962,6 Z M131.092156,19.9101124 C134.981168,19.9101124 136.925644,17.9101324 136.925644,13.9101124 C136.925644,9.92507371 134.981168,7.93258427 131.092156,7.93258427 L127.995921,7.93258427 L127.995921,19.9101124 L131.092156,19.9101124 Z M146.909883,22 C145.832926,22 144.886864,21.7677926 144.071667,21.3033708 C143.25647,20.838949 142.628255,20.1760343 142.187002,19.3146067 C141.745748,18.4531792 141.525125,17.4531892 141.525125,16.3146067 C141.525125,15.1610429 141.745748,14.1535624 142.187002,13.2921348 C142.628255,12.4307073 143.25647,11.7677926 144.071667,11.3033708 C144.886864,10.838949 145.832926,10.6067416 146.909883,10.6067416 C147.98684,10.6067416 148.932903,10.838949 149.748099,11.3033708 C150.563296,11.7677926 151.191511,12.4307073 151.632765,13.2921348 C152.074018,14.1535624 152.294641,15.1610429 152.294641,16.3146067 C152.294641,17.4531892 152.074018,18.4531792 151.632765,19.3146067 C151.191511,20.1760343 150.563296,20.838949 149.748099,21.3033708 C148.932903,21.7677926 147.98684,22 146.909883,22 Z M146.909883,20.2022472 C147.912051,20.2022472 148.678624,19.8726625 149.209624,19.2134831 C149.740623,18.5543038 150.006119,17.5880213 150.006119,16.3146067 C150.006119,15.0561735 149.736884,14.0936363 149.198405,13.4269663 C148.659927,12.7602963 147.897094,12.4269663 146.909883,12.4269663 C145.922673,12.4269663 145.15984,12.7602963 144.621361,13.4269663 C144.082883,14.0936363 143.813647,15.0561735 143.813647,16.3146067 C143.813647,17.5880213 144.079143,18.5543038 144.610143,19.2134831 C145.141142,19.8726625 145.907715,20.2022472 146.909883,20.2022472 Z M159.990358,20.247191 C160.334386,20.247191 160.67093,20.2247193 161,20.1797753 L160.887818,21.9101124 C160.513874,21.9700378 160.124979,22 159.72112,22 C158.300135,22 157.241891,21.6516889 156.546356,20.9550562 C155.850822,20.2584235 155.50306,19.2509429 155.50306,17.9325843 L155.50306,12.6292135 L153.371593,12.6292135 L153.371593,10.8764045 L155.50306,10.8764045 L155.50306,7.57303371 L157.769145,7.57303371 L157.769145,10.8764045 L160.775635,10.8764045 L160.775635,12.6292135 L157.769145,12.6292135 L157.769145,17.8426966 C157.769145,19.4457009 158.509542,20.247191 159.990358,20.247191 Z" fill="#032E61"></path><path d="M5.54577219,0 L23.4542278,0 C26.5170732,-5.62635573e-16 29,2.48292678 29,5.54577219 L29,23.4542278 C29,26.5170732 26.5170732,29 23.4542278,29 L5.54577219,29 C2.48292678,29 1.2632688e-15,26.5170732 8.8817842e-16,23.4542278 L0,5.54577219 C-3.75090382e-16,2.48292678 2.48292678,1.45081399e-15 5.54577219,8.8817842e-16 Z" fill="#032E61"></path><mask id="Logo__mask" fill="white"><use xlink:href="#Logo__path"></use></mask><use fill="white" xlink:href="#Logo__path"></use></svg>
+  </header>
+
+  <div class="hero">
+    <h1>We closed our doors.</h1>
+
+    <p>
+      Humble Dot shut down permanently on July 31st, 2020. While we were certainly disappointed about this decision, we were incredibly grateful for the opportunity to bring so many teams across the globe together in a totally new way. Working and developing the product with our enthusiastic customers as been nothing short of amazing.
+    </p>
+
+    <p>
+      Thank you to everyone who believed in us and supported us through this journey.
+    </p>
+
+    <p>
+      Regards,<br />Humble Dot Team
+    </p>
+  </div>
+
+</div>
+
+</body>
+</html>
